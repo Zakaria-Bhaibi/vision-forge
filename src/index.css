@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components {
+.btn{
+@apply px-10 py-2 my-0 font-bold tracking-widest uppercase border-2 border-black font-alata hover:bg-black hover:text-white;
+}
+}
+.item-container {
+@apply flex flex-col justify-between w-full space-y-6 text-2xl text-white uppercase md:flex-row md:space-y-0 md:space-x-8;
+}
+.item {
+@apply relative overflow-hidden md:w-1/4;
+}
 #hero {
   background-image : url('/desktop/image-hero.jpg');
   background-repeat : no-repeat;
