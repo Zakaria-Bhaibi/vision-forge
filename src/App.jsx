@@ -74,7 +74,7 @@ function App() {
               See All
             </button>
           </div>
-          {/*Items container */}
+          {/*Items container 1*/}
           <div className="item-container">
             {/*Item 1 */}
             <div className="group item">
@@ -83,9 +83,89 @@ function App() {
               {/*Moble image */}
               <img src="/mobile/image-deep-earth.jpg" alt="" className="w-full md:hidden" />
               {/*Item Gradient */}
-              <div className="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70"></div>
+              <div className="item-gradient"></div>
               {/*Item Text */}
-              <h5 className="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 md:px-10 group-hover:scale-110 group-hover:text-black">Deep Earth </h5>
+              <h5>Deep Earth</h5>
+            </div>
+            {/*Item 2 */}
+            <div className="group item">
+              {/*Desktop image */}
+              <img src="/desktop/image-night-arcade.jpg" alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />
+              {/*Moble image */}
+              <img src="/mobile/image-night-arcade.jpg" alt="" className="w-full md:hidden" />
+              {/*Item Gradient */}
+              <div className="item-gradient"></div>
+              {/*Item Text */}
+              <h5>Night Arcade</h5>
+            </div>
+            {/*Item 3 */}
+            <div className="group item">
+              {/*Desktop image */}
+              <img src="/desktop/image-soccer-team.jpg" alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />
+              {/*Moble image */}
+              <img src="/mobile/image-soccer-team.jpg" alt="" className="w-full md:hidden" />
+              {/*Item Gradient */}
+              <div className="item-gradient"></div>
+              {/*Item Text */}
+              <h5>Soccer Team VR</h5>
+            </div>
+            {/*Item 4 */}
+            <div className="group item">
+              {/*Desktop image */}
+              <img src="/desktop/image-grid.jpg" alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />
+              {/*Moble image */}
+              <img src="/mobile/image-grid.jpg" alt="" className="w-full md:hidden" />
+              {/*Item Gradient */}
+              <div className="item-gradient"></div>
+              {/*Item Text */}
+              <h5>The grid</h5>
+            </div>
+          </div>
+          {/*Items container 2 */}
+          <div className="item-container mt-10">
+            {/*Item 1 */}
+            <div className="group item">
+              {/*Desktop image */}
+              <img src="/desktop/image-from-above.jpg" alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />
+              {/*Moble image */}
+              <img src="/mobile/image-from-above.jpg" alt="" className="w-full md:hidden" />
+              {/*Item Gradient */}
+              <div className="item-gradient"></div>
+              {/*Item Text */}
+              <h5>From Above vr</h5>
+            </div>
+            {/*Item 2 */}
+            <div className="group item">
+              {/*Desktop image */}
+              <img src="/desktop/image-pocket-borealis.jpg" alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />
+              {/*Moble image */}
+              <img src="/mobile/image-pocket-borealis.jpg" alt="" className="w-full md:hidden" />
+              {/*Item Gradient */}
+              <div className="item-gradient"></div>
+              {/*Item Text */}
+              <h5>Pocket borealis</h5>
+            </div>
+            {/*Item 3 */}
+            <div className="group item">
+              {/*Desktop image */}
+              <img src="/desktop/image-curiosity.jpg" alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />
+              {/*Moble image */}
+              <img src="/mobile/image-curiosity.jpg" alt="" className="w-full md:hidden" />
+              {/*Item Gradient */}
+              <div className="item-gradient"></div>
+              {/*Item Text */}
+              <h5>The curiosity</h5>
+            </div>
+            {/*Item 4 */}
+            <div className="group item">
+              {/*Desktop image */}
+              <img src="/desktop/image-fisheye.jpg" alt="" className="hidden w-full duration-200 md:block group-hover:scale-110" />
+              {/*Moble image */}
+              <img src="/mobile/image-fisheye.jpg" alt="" className="w-full md:hidden" />
+              {/*Item Gradient */}
+              <div className="item-gradient"></div>
+              {/*Item Text */}
+              <h5>Make it fisheye</h5>
             </div>
           </div>
         </div>
